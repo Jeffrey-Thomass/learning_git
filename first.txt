@@ -79,4 +79,10 @@ git status  - shows which files are in the changes area and staging area
 git status -s ( in shortForm )
 
 commit - (save a snapShot) 
-git commit -m "statement"
+git commit -m "statement( past/present tense)"
+
+git log - all the commits 
+
+q - to exit terminal
+
+git checkout 0f78b68b72af32b40f0372f8231f5240e9c21bf0 (takes to that commit)
