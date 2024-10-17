@@ -86,3 +86,14 @@ git log - all the commits
 q - to exit terminal
 
 git checkout 0f78b68b72af32b40f0372f8231f5240e9c21bf0 (takes to that commit)
+
+git remote show origin
+
+git branch -M main
+git push -u origin main
+
+git log --oneline
+
+git branch (new branch)
+
+git checkout -b contact
