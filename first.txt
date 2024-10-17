@@ -1,0 +1,81 @@
+CLI
+
+ls - The ls command in the terminal is used to list the contents of a directory. It's one of the most commonly used commands in Unix-based systems like macOS and Linux. When you type ls, it shows you the files and folders within the current directory.
+
+not to open a file :- cd .\video\
+nano p9.py  # Open with nano text editor in terminal
+open p9.py  # Open the file using the default editor on your Mac (usually TextEdit or VS Code)
+cd my_folder
+
+
+------------------------------
+PS C:\Users> ls 
+
+get all the files and folders in Users
+
+------------------------------
+
+PS C:\Users\sub\Pictures> cd .\screenShot\. => is a PowerShell command that changes the current directory to the screenShot folder located inside the Pictures directory.
+
+PS C:\Users\sub\Pictures\screenShot> '.\ss1.png'  => opens the photo
+
+------------------------------
+
+PS C:\Users\sub\Pictures> mkdir familyPhotos  => makes a folder named familyPhotos
+
+
+------------------------------
+
+
+PS C:\Users\sub\Pictures> rm .\screenShot\.  => deletes the screenShot folder
+
+PS C:\Users\sub\Pictures\screenShot> rm '.\ss1.png' 
+
+
+------------------------------
+
+
+PS C:\Users\sub\Pictures\screenShot> cd ../../
+< PS C:\Users\sub  => goes back 2 folders
+
+-------------------------------
+
+In Mac 
+3. Using Terminal (Command Line)
+Open Finder and locate your studyMaterial folder.
+Drag the studyMaterial folder into the Terminal window. This will automatically paste the folder’s full path into the terminal.
+4. Using pwd Command in Terminal
+If you're already inside the studyMaterial folder in Terminal, you can use the command :
+
+code - pwd (print working directory)
+
+
+cd /Users/jeffreythomas/Desktop/studyMaterial/node/n2
+
+
+code . => opens the n2 in vs code 
+
+
+mv n2 node2 => rename n2 to node2
+
+cd /Users/jeffreythomas/Desktop/studyMaterial/node/n2  
+
+touch index.html script.js style.css  => creates the files
+ 
+
+------------------------------
+
+
+VERSION CONTROL
+
+git init ( making a repository)
+
+U - untracked
+
+git add index.html ( adds to teh staging area) 
+OR git add . (adds all the files to the staging area)
+
+git status  - shows which files are in the changes area and staging area
+git status -s ( in shortForm )
+
+commit - (save a snapShot) 
